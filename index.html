@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Styled Center Panel Website with Background Image</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: url('https://i.imgur.com/sF0ngiy.png') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+        }
+        .banner {
+            width: 100%;
+            padding: 10px 0;
+            background: rgba(30, 30, 30, 0.9);
+            text-align: center;
+            position: fixed;
+            top: 0;
+        }
+        .banner a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .panel {
+            background-color: rgba(30, 30, 30, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 20px;
+            max-width: 400px;
+            width: 80%;
+            margin-top: 80px; /* To avoid overlap with the banner */
+        }
+        .panel img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .panel p {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <a href="https://www.youtube.com/@Regian/videos" target="_blank">Youtube</a>
+    </div>
+    <div class="panel">
+        <img src="https://i.imgur.com/nJrzeYo.png" alt="Sample Image">
+        <p style="font-size: 18px;">Regian</p>
+        <p>"Biggest Gooner in all of Italy"</p>
+        <p> - B. Mussolini</p>
+        <br>
+        <p>hceTgerG 💞</p>
+    </div>
+</body>
+</html>
